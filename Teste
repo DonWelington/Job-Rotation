@@ -1,0 +1,95 @@
+RESOLUÇÃO 1
+
+let indice = 13;
+let soma = 0;
+let k = 0;
+
+while (k < indice){
+    k = k+1;
+    soma = soma + k;
+}
+
+console.log(soma);
+
+//fim
+
+--------------------------
+
+RESOLUÇÃO 2
+
+let num = 75; //numero pré-definido
+let a = 0;
+let b = 1;
+const n = 100; 
+let fibo = false;
+
+while (b <= n) {
+    
+    if (b === num){
+        fibo = true;        
+      }
+    console.log(b); 
+    const c = a;
+    a = b;
+    b = c + b;
+  
+}
+
+console.log('---------------------------------------------------')
+
+if (fibo) {
+    console.log('----------', num, 'esta na fibonacchi -------');
+  } else {
+    console.log('------', num, 'não esta na fibonacchi -------');
+  }
+
+  console.log('---------------------------------------------------')
+  
+//fim  
+  
+----------------------------
+
+*RESOLUÇÃO 3
+
+a) 1, 3, 5, 7, _9__  //+2
+
+b) 2, 4, 8, 16, 32, 64, _128__  //x2
+
+c) 0, 1, 4, 9, 16, 25, 36, __49__  //quadrados perfeitos 1x1, 2x2, 3x3...
+
+d) 4, 16, 36, 64, __100__ // quadrado dos numeros pares 
+
+e) 1, 1, 2, 3, 5, 8, __fibo inciado com 0 e 1__  
+
+f) 2,10, 12, 16, 17, 18, 19, ____ 
+
+//fim
+
+
+--------------------------
+
+RESOLUÇÃO 4
+
+carro:
+distanca / velocidade = 100/110 = 0,91
+velocidade * tempo = 110 * 0,91 = 100,1 km
+
+caminhão:
+distanca / velocidade = 100/80 = 1,35
+velocidade * tempo = 80 * 1,35 = 108 km
+
+segui a formula e por causa dos pedagios o carro se aproxima mais de Ribeirão Preto .
+
+---------------------------------
+
+let minhaString = "Texto invertido";
+let Invertida = "";
+
+for (let i = minhaString.length - 1; i >= 0; i--) {
+    Invertida += minhaString[i];
+}
+
+console.log(Invertida); 
+
+
+
